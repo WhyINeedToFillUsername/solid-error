@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "solid-error"
+    }
+  },
+  "defaultProject": "solid-error",
+  "cli": {
+    "analytics": "a3b98801-25da-41e4-bf7c-115e5b6f75d7"
+  }
 }
