@@ -62,8 +62,11 @@
           }
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
+            "customWebpackConfig": {
+              "path": "./extra-webpack.config.js"
+            },
             "browserTarget": "solid-error:build"
           },
           "configurations": {
@@ -125,6 +128,7 @@
   },
   "defaultProject": "solid-error",
   "cli": {
-    "analytics": "a3b98801-25da-41e4-bf7c-115e5b6f75d7"
+    "analytics": "a3b98801-25da-41e4-bf7c-115e5b6f75d7",
+    "packageManager": "npm"
   }
 }
