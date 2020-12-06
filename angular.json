@@ -14,7 +14,7 @@
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
             "customWebpackConfig": {
-              "path": "./extra-webpack.config.js"
+              "path": "./hacks/extra-webpack.config.js"
             },
             "outputPath": "dist/solid-error",
             "index": "src/index.html",
@@ -65,7 +65,7 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
             "customWebpackConfig": {
-              "path": "./extra-webpack.config.js"
+              "path": "./hacks/extra-webpack.config.js"
             },
             "browserTarget": "solid-error:build"
           },
